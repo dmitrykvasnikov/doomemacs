@@ -6,8 +6,9 @@
 (setq user-full-name "Dmitry Kvasnikov"
       user-mail-address "dmitry.kvasnikov@gmail.com")
 
-(setq doom-theme 'ef-autumn)
+(setq doom-theme 'ef-owl)
 (setq custom-safe-themes t)
+(add-to-list 'custom-theme-load-path (concat doom-user-dir "themes"))
 
 (setq display-line-numbers-type t)
 (setq display-line-numbers-type 'relative)
@@ -18,7 +19,7 @@
 
 (setq-default initial-scratch-message ";; He who walks alone  ... Always walks uphill but ... Beneath his feet are the ... Broken bones of flawed men ...\n\n")
 
-(setq doom-font (font-spec :family "Aporetic Sans Mono" :size 18))
+(setq doom-font (font-spec :family "Aporetic Sans Mono" :size 16))
 
 ;; LSP settings
 (setq lsp-enable-symbol-highlighting nil)
