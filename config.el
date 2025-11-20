@@ -78,7 +78,7 @@
    ("C-c r" . ormolu-format-buffer)))
 (after! lsp-haskell
   (setq lsp-haskell-formatting-provider "ormolu"))
-(custom-set-variables '(haskell-stylish-on-save t))
+(setq haskell-stylish-on-save t)
 
 (custom-set-faces!
   '(flycheck-error :underline (:color "red2" :style wave)))
