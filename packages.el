@@ -17,8 +17,8 @@
 (package! ef-themes)
 (package! spacious-padding)
 (package! all-the-icons)
-(package! haskell-mode)
-(package! lsp-haskell)
+;;(package! haskell-mode)
+;;(package! lsp-haskell)
 
 ;; To install a package directly from a remote git repo, you must specify a
 ;; `:recipe'. You'll find documentation on what `:recipe' accepts here:
